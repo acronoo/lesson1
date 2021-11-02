@@ -9,4 +9,4 @@ i = 1  # счетчик дней
 while start_distance < goal:
     start_distance = start_distance + (start_distance * (1 / 10))
     i = i + 1
-print("всего заняло ", i, " дней")
+print("Спортсмен достиг результата на ", i, " день")
